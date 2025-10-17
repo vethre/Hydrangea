@@ -1,0 +1,56 @@
+{
+  "start": "intro_1",
+  "scenes": [
+    {
+      "id": "intro_1",
+      "speaker": "str:voice",
+      "text": "str:intro_1.text",
+      "choices": [
+        {
+          "text": "str:intro_1.choice_breathe",
+          "effects": { "clarity": 8, "anxiety": -6, "balance": 12 },
+          "next": "calm_1"
+        },
+        {
+          "text": "str:intro_1.choice_skip",
+          "effects": { "clarity": -2, "anxiety": 5, "balance": -8 },
+          "next": "avoid_1"
+        }
+      ]
+    },
+    {
+      "id": "calm_1",
+      "speaker": "str:voice",
+      "text": "str:calm_1.text",
+      "choices": [
+        {
+          "text": "str:calm_1.choice_step",
+          "effects": { "clarity": 6, "anxiety": -4, "balance": 6 },
+          "next": null
+        },
+        {
+          "text": "str:calm_1.choice_listen",
+          "effects": { "clarity": 5, "anxiety": -2, "balance": 8 },
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "avoid_1",
+      "speaker": "str:voice",
+      "text": "str:avoid_1.text",
+      "choices": [
+        {
+          "text": "str:avoid_1.choice_look_back",
+          "effects": { "clarity": 2, "anxiety": 3, "balance": -5 },
+          "next": null
+        },
+        {
+          "text": "str:avoid_1.choice_hurry",
+          "effects": { "clarity": -3, "anxiety": 6, "balance": -6 },
+          "next": null
+        }
+      ]
+    }
+  ]
+}

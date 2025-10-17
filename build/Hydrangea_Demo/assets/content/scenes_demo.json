@@ -1,0 +1,411 @@
+{
+  "start": "prologue_c1",
+  "scenes": [
+    {
+      "id": "prologue_c1",
+      "speaker": "str:none",
+      "text": "str:prologue_c1.text",
+      "background": "backgrounds/black.png",
+      "music": "music/calm.mp3",
+      "vfx": { "grain": 0.25, "vignette": 0.5 },
+      "cinematic": true,
+      "auto_time": 1.8,
+      "auto_next": "prologue_c2"
+    },
+    {
+      "id": "prologue_c2",
+      "speaker": "str:none",
+      "text": "str:prologue_c2.text",
+      "background": "backgrounds/black.png",
+      "music": "music/calm.mp3",
+      "sfx": ["sfx/heartbeat.mp3"],
+      "vfx": { "grain": 0.3, "vignette": 0.55 },
+      "cinematic": true,
+      "auto_time": 2.0,
+      "auto_next": "prologue_c3"
+    },
+    {
+      "id": "prologue_c3",
+      "speaker": "str:none",
+      "text": "str:prologue_c3.text",
+      "background": "backgrounds/black.png",
+      "music": "music/calm.mp3",
+      "vfx": { "grain": 0.28, "vignette": 0.5 },
+      "cinematic": true,
+      "auto_time": 2.2,
+      "auto_next": "prologue_dark"
+    },
+
+    {
+      "id": "prologue_dark",
+      "speaker": "str:none",
+      "text": "str:prologue_dark.text",
+      "background": "backgrounds/black.png",
+      "music": "music/calm.mp3",
+      "sfx": ["sfx/heartbeat.mp3"],
+      "vfx": { "flash": false, "grain": 0.2, "vignette": 0.4 },
+      "choices": [
+        { "text": "str:prologue_dark.touch", "effects": { "clarity": 12, "anxiety": 8, "balance": 3 }, "next": "field_intro" },
+        { "text": "str:prologue_dark.stepback", "effects": { "clarity": -3, "anxiety": -5, "balance": -8 }, "next": "field_intro" }
+      ]
+    },
+
+    {
+      "id": "field_intro",
+      "speaker": "str:voice",
+      "text": "str:field_intro.text",
+      "background": "backgrounds/hydrangea_field.png",
+      "music": "music/calm.mp3",
+      "vfx": { "grain": 0.1, "vignette": 0.3 },
+      "choices": [
+        { "text": "str:field_intro.enter", "effects": { "clarity": 9, "anxiety": 10, "balance": 7 }, "next": "act1_title" }
+      ]
+    },
+
+    {
+      "id": "act1_title",
+      "title": "str:act1_title",
+      "background": "backgrounds/black.png",
+      "music": "music/calm.mp3",
+      "cinematic": true,
+      "auto_time": 2.5,
+      "auto_next": "act1_rain_prelude_c1"
+    },
+
+    {
+      "id": "act1_rain_prelude_c1",
+      "speaker": "str:none",
+      "text": "str:act1_rain_prelude_c1.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "sfx": ["sfx/rain_loop.mp3"],
+      "vfx": { "grain": 0.12, "vignette": 0.25 },
+      "cinematic": true,
+      "auto_time": 2.6,
+      "auto_next": "act1_rain_prelude_c2"
+    },
+    {
+      "id": "act1_rain_prelude_c2",
+      "speaker": "str:none",
+      "text": "str:act1_rain_prelude_c2.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "vfx": { "grain": 0.12 },
+      "cinematic": true,
+      "auto_time": 2.4,
+      "auto_next": "act1_love_dialog_1"
+    },
+
+    {
+      "id": "act1_love_dialog_1",
+      "speaker": "str:first_love",
+      "text": "str:act1_love_dialog_1.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "choices": [
+        { "text": "str:act1_love_dialog_1.reply_soft", "effects": { "balance": 3 }, "next": "act1_love_dialog_2" },
+        { "text": "str:act1_love_dialog_1.reply_joke", "effects": { "clarity": 2, "anxiety": -2 }, "next": "act1_love_dialog_2" }
+      ]
+    },
+    {
+      "id": "act1_love_dialog_2",
+      "speaker": "str:first_love",
+      "text": "str:act1_love_dialog_2.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "choices": [
+        { "text": "str:act1_love_dialog_2.ask_memory", "effects": { "clarity": 4 }, "next": "act1_love_dialog_3" },
+        { "text": "str:act1_love_dialog_2.change_topic", "effects": { "anxiety": -1 }, "next": "act1_love_dialog_3" }
+      ]
+    },
+    {
+      "id": "act1_love_dialog_3",
+      "speaker": "str:first_love",
+      "text": "str:act1_love_dialog_3.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "cinematic": true,
+      "auto_time": 2.4,
+      "auto_next": "act1_love_confession"
+    },
+
+    {
+      "id": "act1_love_confession",
+      "speaker": "str:first_love",
+      "text": "str:act1_love_confession.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "choices": [
+        { "text": "str:act1_love_confession.listen", "effects": { "clarity": 6, "balance": 4 }, "next": "act1_listen_branch" },
+        { "text": "str:act1_love_confession.avoid", "effects": { "anxiety": 8, "balance": -6 }, "next": "act1_avoid_branch" }
+      ]
+    },
+
+    {
+      "id": "act1_avoid_branch",
+      "speaker": "str:first_love",
+      "text": "str:act1_avoid_branch.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "sfx": ["sfx/throw_flower.mp3"],
+      "vfx": { "shake": [120, 0.7] },
+      "cinematic": true,
+      "auto_time": 2.5,
+      "auto_next": "act1_petal_choice"
+    },
+    {
+      "id": "act1_listen_branch",
+      "speaker": "str:first_love",
+      "text": "str:act1_listen_branch.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "vfx": { "vignette": 0.35 },
+      "cinematic": true,
+      "auto_time": 2.5,
+      "auto_next": "act1_petal_choice"
+    },
+
+    {
+      "id": "act1_petal_choice",
+      "speaker": "str:first_love",
+      "text": "str:act1_petal_choice.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "choices": [
+        { "text": "str:act1_rain_love.keep_petal", "effects": { "clarity": 15, "anxiety": 1, "balance": 6 }, "flags+": ["petal_kept"], "next": "act1_rain_post_c1" },
+        { "text": "str:act1_rain_love.throw_petal", "effects": { "clarity": -8, "anxiety": 8, "balance": -6 }, "flags-": ["petal_kept"], "sfx_on_pick": ["sfx/paper_rip.mp3"], "next": "act1_rain_post_c1" }
+      ]
+    },
+    {
+      "id": "act1_rain_post_c1",
+      "speaker": "str:none",
+      "text": "str:act1_rain_post_c1.text",
+      "background": "backgrounds/rain_park.png",
+      "music": "music/calm.mp3",
+      "cinematic": true,
+      "auto_time": 2.5,
+      "auto_next": "act1_rooftop_title"
+    },
+
+    {
+      "id": "act1_rooftop_title",
+      "title": "str:act1_rooftop_title",
+      "background": "backgrounds/black.png",
+      "music": "music/calm.mp3",
+      "cinematic": true,
+      "auto_time": 2.5,
+      "auto_next": "act1_rooftop_c1"
+    },
+    {
+      "id": "act1_rooftop_c1",
+      "speaker": "str:best_friend",
+      "text": "str:act1_rooftop_c1.text",
+      "background": "backgrounds/school_rooftop.png",
+      "music": "music/calm.mp3",
+      "choices": [
+        { "text": "str:act1_rooftop_c1.answer_honest", "effects": { "clarity": 4 }, "next": "act1_rooftop_c2" },
+        { "text": "str:act1_rooftop_c1.answer_deflect", "effects": { "anxiety": -2 }, "next": "act1_rooftop_c2" }
+      ]
+    },
+    {
+      "id": "act1_rooftop_c2",
+      "speaker": "str:best_friend",
+      "text": "str:act1_rooftop_c2.text",
+      "background": "backgrounds/school_rooftop.png",
+      "music": "music/calm.mp3",
+      "cinematic": true,
+      "auto_time": 2.0,
+      "auto_next": "act1_rooftop_c3"
+    },
+    {
+      "id": "act1_rooftop_c3",
+      "speaker": "str:best_friend",
+      "text": "str:act1_rooftop_c3.text",
+      "background": "backgrounds/school_rooftop.png",
+      "music": "music/calm.mp3",
+      "choices": [
+        { "text": "str:act1_rooftop_friend.look_photo", "effects": { "clarity": 10, "anxiety": 3, "balance": 2 }, "flags+": ["photo_kept"], "next": "act1_rooftop_c4" },
+        { "text": "str:act1_rooftop_friend.tear_photo", "effects": { "clarity": -9, "anxiety": 9, "balance": -5 }, "flags-": ["photo_kept"], "sfx_on_pick": ["sfx/paper_rip.mp3"], "next": "act1_rooftop_c4" }
+      ]
+    },
+    {
+      "id": "act1_rooftop_c4",
+      "speaker": "str:best_friend",
+      "text": "str:act1_rooftop_c4.text",
+      "background": "backgrounds/school_rooftop.png",
+      "music": "music/calm.mp3",
+      "cinematic": true,
+      "auto_time": 2.6,
+      "auto_next": "act2_title"
+    },
+
+    {
+      "id": "act2_title",
+      "title": "str:act2_title",
+      "background": "backgrounds/black.png",
+      "music": "music/tense.mp3",
+      "cinematic": true,
+      "auto_time": 2.3,
+      "auto_next": "act2_shop_c1"
+    },
+    {
+      "id": "act2_shop_c1",
+      "speaker": "str:wife",
+      "text": "str:act2_shop_c1.text",
+      "background": "backgrounds/flower_shop.png",
+      "music": "music/tense.mp3",
+      "vfx": { "vignette": 0.35, "grain": 0.25 },
+      "choices": [
+        { "text": "str:act2_shop_c1.reply_warm", "effects": { "balance": 4 }, "next": "act2_shop_c2" },
+        { "text": "str:act2_shop_c1.reply_cold", "effects": { "anxiety": 5 }, "next": "act2_shop_c2" }
+      ]
+    },
+    {
+      "id": "act2_shop_c2",
+      "speaker": "str:wife",
+      "text": "str:act2_shop_c2.text",
+      "background": "backgrounds/flower_shop.png",
+      "music": "music/tense.mp3",
+      "choices": [
+        { "text": "str:act2_shop_c2.talk_future", "effects": { "clarity": 6 }, "next": "act2_quarrel_c1" },
+        { "text": "str:act2_shop_c2.hide_truth", "effects": { "anxiety": 7, "balance": -4 }, "next": "act2_quarrel_c1" }
+      ]
+    },
+
+    {
+      "id": "act2_quarrel_c1",
+      "speaker": "str:wife",
+      "text": "str:act2_quarrel_c1.text",
+      "background": "backgrounds/home_hall.png",
+      "music": "music/tense.mp3",
+      "vfx": { "red_overlay": 0.1 },
+      "choices": [
+        { "text": "str:act2_quarrel_c1.apologize", "effects": { "clarity": 7, "anxiety": -3, "balance": 4 }, "next": "act2_quarrel_c2" },
+        { "text": "str:act2_quarrel_c1.defend", "effects": { "anxiety": 10, "balance": -6 }, "next": "act2_quarrel_c2" }
+      ]
+    },
+    {
+      "id": "act2_quarrel_c2",
+      "speaker": "str:wife",
+      "text": "str:act2_quarrel_c2.text",
+      "background": "backgrounds/home_hall.png",
+      "music": "music/tense.mp3",
+      "vfx": { "red_overlay": 0.2, "shake": [180, 0.9] },
+      "cinematic": true,
+      "auto_time": 2.6,
+      "auto_next": "act2_quarrel_c3"
+    },
+    {
+      "id": "act2_quarrel_c3",
+      "speaker": "str:wife",
+      "text": "str:act2_quarrel_c3.text",
+      "background": "backgrounds/home_hall.png",
+      "music": "music/tense.mp3",
+      "choices": [
+        { "text": "str:act2_quarrel_c3.stay", "effects": { "clarity": 6, "balance": 3 }, "next": "act2_items_explain" },
+        { "text": "str:act2_quarrel_c3.leave", "effects": { "anxiety": 8, "balance": -5 }, "next": "act2_items_explain" }
+      ]
+    },
+
+    {
+      "id": "act2_items_explain",
+      "speaker": "str:wife",
+      "text": "str:act2_items_explain.text",
+      "background": "backgrounds/home_door.png",
+      "music": "music/tense.mp3",
+      "vfx": { "vignette": 0.35 },
+      "cinematic": true,
+      "auto_time": 2.6,
+      "auto_next": "act2_farewell"
+    },
+
+    {
+      "id": "act2_farewell",
+      "speaker": "str:wife",
+      "text": "str:act2_farewell.text",
+      "background": "backgrounds/home_door.png",
+      "music": "music/tense.mp3",
+      "vfx": { "red_overlay": 0.2 },
+      "choices": [
+        { "text": "str:act2_farewell.pick_ring", "effects": { "clarity": 12, "anxiety": 2, "balance": 6 }, "flags+": ["ring_picked"], "next": "final_field_pre" },
+        { "text": "str:act2_farewell.tear_letter", "effects": { "clarity": -8, "anxiety": 13, "balance": -11 }, "flags+": ["letter_torn"], "sfx_on_pick": ["sfx/paper_rip.mp3"], "vfx_on_pick": { "flash": true, "shake": [220, 1.2] }, "next": "final_field_pre" }
+      ]
+    },
+
+    {
+      "id": "final_field_pre",
+      "speaker": "str:none",
+      "text": "str:final_field_pre.text",
+      "background": "backgrounds/hydrangea_field_final.png",
+      "music": "music/ending.mp3",
+      "vfx": { "grain": 0.28, "vignette": 0.45 },
+      "cinematic": true,
+      "auto_time": 2.8,
+      "auto_next": "final_field_nightmare_c1"
+    },
+    {
+      "id": "final_field_nightmare_c1",
+      "speaker": "str:nightmare",
+      "text": "str:final_field_nightmare_c1.text",
+      "background": "backgrounds/hydrangea_field_final.png",
+      "music": "music/ending.mp3",
+      "choices": [
+        { "text": "str:final_field_nightmare_c1.stay_silent", "next": "final_field_nightmare_c2" },
+        { "text": "str:final_field_nightmare_c1.answer", "effects": { "clarity": 3, "anxiety": 2 }, "next": "final_field_nightmare_c2" }
+      ]
+    },
+    {
+      "id": "final_field_nightmare_c2",
+      "speaker": "str:nightmare",
+      "text": "str:final_field_nightmare_c2.text",
+      "background": "backgrounds/hydrangea_field_final.png",
+      "music": "music/ending.mp3",
+      "vfx": { "glitch": 0.25 },
+      "cinematic": true,
+      "auto_time": 2.4,
+      "auto_next": "final_field_nightmare"
+    },
+    {
+      "id": "final_field_nightmare",
+      "speaker": "str:nightmare",
+      "text": "str:final_field_nightmare.text",
+      "background": "backgrounds/hydrangea_field_final.png",
+      "music": "music/ending.mp3",
+      "vfx": { "grain": 0.35, "vignette": 0.5, "glitch": 0.2 },
+      "choices": [
+        { "text": "str:final_field_short.lower_gun", "effects": {}, "next": "final_field_truth" }
+      ]
+    },
+    {
+      "id": "final_field_truth",
+      "speaker": "str:none",
+      "text": "str:final_field_truth.text",
+      "background": "backgrounds/hydrangea_field_final.png",
+      "music": "music/ending.mp3",
+      "cinematic": true,
+      "auto_time": 2.6,
+      "auto_next": "ending_branch"
+    },
+
+    {
+      "id": "ending_branch",
+      "speaker": "str:none",
+      "text": "str:ending_branch.text",
+      "background": "backgrounds/black.png",
+      "music": "music/ending.mp3",
+      "checks": [
+        { "if": { "anxiety": ">=60" }, "goto": "ending_bad" },
+        { "if": { "clarity": ">=70", "anxiety": "<=45", "not_flag": "letter_torn" }, "goto": "ending_true" },
+        { "if": { "flag": "ring_picked", "flag2": "petal_kept", "clarity": ">=50", "anxiety": "<=55" }, "goto": "ending_illusory" }
+      ],
+      "choices": [
+        { "text": "str:ending_branch.proceed", "next": "ending_neutral" }
+      ]
+    },
+
+    { "id": "ending_true", "speaker": "str:none", "text": "str:ending_true.text", "background": "backgrounds/hydrangea_true.png", "music": "music/ending.mp3", "cinematic": true },
+    { "id": "ending_bad", "speaker": "str:none", "text": "str:ending_bad.text", "background": "backgrounds/hydrangea_bad.png", "music": "music/ending.mp3", "cinematic": true },
+    { "id": "ending_neutral", "speaker": "str:none", "text": "str:ending_neutral.text", "background": "backgrounds/hydrangea_neutral.png", "music": "music/ending.mp3", "cinematic": true },
+    { "id": "ending_illusory", "speaker": "str:none", "text": "str:ending_illusory.text", "background": "backgrounds/hydrangea_illusory.png", "music": "music/ending.mp3", "cinematic": true }
+  ]
+}

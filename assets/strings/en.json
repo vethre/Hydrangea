@@ -1,0 +1,107 @@
+{
+  "none": "",
+  "voice": "The Voice",
+  "nightmare": "The Nightmare",
+  "first_love": "The First Love",
+  "best_friend": "The Best Friend",
+  "wife": "The Wife",
+
+  "menu.new_game": "New Game",
+  "menu.continue": "Continue",
+  "menu.settings": "Settings",
+  "menu.exit": "Exit",
+
+  "prologue_c1.text": "Darkness…",
+  "prologue_c2.text": "Sounds of a heartbeat…",
+  "prologue_c3.text": "\"Son, please, wake up! Don't leave me as well…\"",
+
+  "prologue_dark.text": "Flash of headlights. Silence. Mother's whisper: \"Be strong...\". Something so strangely shines.",
+  "prologue_dark.touch": "Touch the shine",
+  "prologue_dark.stepback": "Step back",
+
+  "field_intro.text": "Inner voice: \"Do you even know who you are?\". You see the flower.",
+  "field_intro.enter": "Touch the flower",
+
+  "act1_title": "CHAPTER I: The Child",
+  "act2_title": "CHAPTER II: The Heart",
+
+  "act1_rain_prelude_c1.text": "Fine rain. Droplets drum on hydrangea leaves.",
+  "act1_rain_prelude_c2.text": "Warm laughter, wet jackets. One umbrella — for two.",
+
+  "act1_love_dialog_1.text": "— Look how the flowers change in the rain…\n— Have you changed? Or is it me?",
+  "act1_love_dialog_1.reply_soft": "Stay gentle",
+  "act1_love_dialog_1.reply_joke": "Turn it into a joke",
+
+  "act1_love_dialog_2.text": "— Memories are like rain: they come and fade.\n— Are you afraid to remember, or afraid to lose?",
+  "act1_love_dialog_2.ask_memory": "Try to tell about us",
+  "act1_love_dialog_2.change_topic": "Change the topic",
+
+  "act1_love_dialog_3.text": "She holds your gaze longer than needed. Silence is an answer too.",
+
+  "act1_love_confession.text": "\"Eleven years passed so quickly… I have to tell you something.\"",
+  "act1_love_confession.listen": "Listen",
+  "act1_love_confession.avoid": "Avoid the talk",
+
+  "act1_avoid_branch.text": "\"As always… you run.\" She throws a hydrangea at your chest.",
+  "act1_listen_branch.text": "\"I had no choice. I must leave for France, to Université Paris-Saclay… Please, don't forget me. And forgive me.\"",
+
+  "act1_petal_choice.text": "A crumpled hydrangea in your hands. A simple, aching choice.",
+  "act1_rain_love.keep_petal": "Keep the petal",
+  "act1_rain_love.throw_petal": "Throw the petal away",
+
+  "act1_rain_post_c1.text": "The rain calms down. A dark print of the petal stains the page.",
+
+  "act1_rooftop_title": "SCHOOL ROOFTOP",
+  "act1_rooftop_c1.text": "— You're not yourself today. That flower again?\n— Don't stay silent.",
+  "act1_rooftop_c1.answer_honest": "Confess your situation with her",
+  "act1_rooftop_c1.answer_deflect": "Deflect with humor",
+
+  "act1_rooftop_c2.text": "— Remember how we dreamed to run away? You didn't run — you got lost.",
+  "act1_rooftop_c3.text": "Three in the photo. Two smile. The third — a blurred silhouette behind.",
+  "act1_rooftop_friend.look_photo": "Look closely at the photo",
+  "act1_rooftop_friend.tear_photo": "Tear the photo",
+  "act1_rooftop_c4.text": "— If you go, don't look back. The past bites.",
+
+  "act2_shop_c1.text": "The smell of wet stems. She adjusts a row of hydrangeas.",
+  "act2_shop_c1.reply_warm": "Smile and help",
+  "act2_shop_c1.reply_cold": "Pretend you're in a hurry",
+
+  "act2_shop_c2.text": "— You're hiding behind work again. We need to talk.",
+  "act2_shop_c2.talk_future": "Talk about the future",
+  "act2_shop_c2.hide_truth": "Change to small talk",
+
+  "act2_quarrel_c1.text": "Home corridor. Words slice the air sharper than knives.",
+  "act2_quarrel_c1.apologize": "Apologize and admit fault",
+  "act2_quarrel_c1.defend": "Defend yourself and retreat",
+
+  "act2_quarrel_c2.text": "— I'm not a postwoman for your silence. These motherfreaking flowers are not a substitute for talking.",
+  "act2_quarrel_c3.text": "— On the doorstep lies the answer. As always: either together — or not at all.",
+  "act2_quarrel_c3.stay": "Stay and talk",
+  "act2_quarrel_c3.leave": "Leave, slamming the door",
+
+  "act2_items_explain.text": "On the floor — a ring and a letter. The ring is what was; the letter is what remains to be said.",
+
+  "act2_farewell.text": "Empty corridor and familiar wooden doors that smell like home. You see a ring and a letter on the doorstep…",
+  "act2_farewell.pick_ring": "Pick up the ring",
+  "act2_farewell.tear_letter": "Tear the letter",
+
+  "final_field_pre.text": "The hydrangea field blackens under the sky. The air smells like a storm.",
+
+  "final_field_nightmare_c1.text": "— Who are you trying to save? Him? Yourself? Her? Or your excuse?",
+  "final_field_nightmare_c1.stay_silent": "Stay silent",
+  "final_field_nightmare_c1.answer": "Find the words",
+
+  "final_field_nightmare_c2.text": "— You hold the gun like it weighs less than guilt. But the weight is in you.",
+
+  "final_field_nightmare.text": "You didn't save him, nor her.. Nor yourself.",
+  "final_field_short.lower_gun": "Lower the gun",
+  "final_field_truth.text": "You always ran, you run, and you will keep running.",
+
+  "ending_branch.text": "The last truth is not words. It's a choice.",
+  "ending_branch.proceed": "Take a step forward",
+
+  "ending_true.text": "The Awakening. Light of the chamber, warm voice. You remember everything — along with the pain.",
+  "ending_bad.text": "The Devouring. The black hydrangea crumbles to ash. The silence of the coma becomes eternity.",
+  "ending_neutral.text": "The Semi-truth. You wake up with gaps. Life goes on, but something is lost forever.",
+  "ending_illusory.text": "The False Awakening. Everything is bright — and suddenly darkens in your hands. You did not wake up."
+}

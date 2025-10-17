@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Hydrangea/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

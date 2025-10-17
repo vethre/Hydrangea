@@ -1,0 +1,5 @@
+{ 
+    "lang":"ua", "music":70, "sfx":100, "scale":1.0, "fullscreen":false,
+    "resolution":[1280,720],
+    "menu_bg":"backgrounds/menu_bg.png"
+}

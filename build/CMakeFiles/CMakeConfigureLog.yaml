@@ -1,0 +1,2926 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Hydrangea/%JAVA_HOME%/bin/mingw32-make.exe.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/mingw32-make.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mingw32-make.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/dotnet/mingw32-make.exe.com"
+      - "C:/Program Files/dotnet/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/mingw32-make.exe.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/mingw32-make.exe"
+      - "C:/Users/Sasha/.cargo/bin/mingw32-make.exe.com"
+      - "C:/Users/Sasha/.cargo/bin/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/mingw32-make.exe.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/mingw32-make.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/mingw32-make.exe.com"
+      - "C:/Program Files/PostgreSQL/17/bin/mingw32-make.exe"
+      - "C:/winlibs/mingw64/bin/mingw32-make.exe.com"
+    found: "C:/winlibs/mingw64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Hydrangea/%JAVA_HOME%/bin/cc.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/cc.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/cc"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/cl.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/cl.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/cl"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/bcc.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/bcc.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/bcc"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/xlc.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/xlc.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/xlc"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/icx.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/icx.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/icx"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/clang.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/clang.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/clang"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cl.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cl.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/cl"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/bcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/bcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/bcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/xlc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/xlc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/xlc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/icx.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/icx.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/icx"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/clang.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/clang.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/clang"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/dotnet/cc.com"
+      - "C:/Program Files/dotnet/cc.exe"
+      - "C:/Program Files/dotnet/cc"
+      - "C:/Program Files/dotnet/gcc.com"
+      - "C:/Program Files/dotnet/gcc.exe"
+      - "C:/Program Files/dotnet/gcc"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/dotnet/bcc.com"
+      - "C:/Program Files/dotnet/bcc.exe"
+      - "C:/Program Files/dotnet/bcc"
+      - "C:/Program Files/dotnet/xlc.com"
+      - "C:/Program Files/dotnet/xlc.exe"
+      - "C:/Program Files/dotnet/xlc"
+      - "C:/Program Files/dotnet/icx.com"
+      - "C:/Program Files/dotnet/icx.exe"
+      - "C:/Program Files/dotnet/icx"
+      - "C:/Program Files/dotnet/clang.com"
+      - "C:/Program Files/dotnet/clang.exe"
+      - "C:/Program Files/dotnet/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/cc.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/cc.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/cc"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/cl.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/cl.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/cl"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/bcc.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/bcc.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/bcc"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/xlc.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/xlc.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/xlc"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/icx.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/icx.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/icx"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/clang.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/clang.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/clang"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/cc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/cc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/cl.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/cl"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/bcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/xlc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/icx.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/icx"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/clang.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/clang"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/cc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/cc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/cl.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/cl"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/bcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/xlc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/icx.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/icx"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/clang.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/clang"
+      - "C:/Users/Sasha/.cargo/bin/cc.com"
+      - "C:/Users/Sasha/.cargo/bin/cc.exe"
+      - "C:/Users/Sasha/.cargo/bin/cc"
+      - "C:/Users/Sasha/.cargo/bin/gcc.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc"
+      - "C:/Users/Sasha/.cargo/bin/cl.com"
+      - "C:/Users/Sasha/.cargo/bin/cl.exe"
+      - "C:/Users/Sasha/.cargo/bin/cl"
+      - "C:/Users/Sasha/.cargo/bin/bcc.com"
+      - "C:/Users/Sasha/.cargo/bin/bcc.exe"
+      - "C:/Users/Sasha/.cargo/bin/bcc"
+      - "C:/Users/Sasha/.cargo/bin/xlc.com"
+      - "C:/Users/Sasha/.cargo/bin/xlc.exe"
+      - "C:/Users/Sasha/.cargo/bin/xlc"
+      - "C:/Users/Sasha/.cargo/bin/icx.com"
+      - "C:/Users/Sasha/.cargo/bin/icx.exe"
+      - "C:/Users/Sasha/.cargo/bin/icx"
+      - "C:/Users/Sasha/.cargo/bin/clang.com"
+      - "C:/Users/Sasha/.cargo/bin/clang.exe"
+      - "C:/Users/Sasha/.cargo/bin/clang"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/cc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/cc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/cl.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/cl"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/bcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/xlc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/icx.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/icx"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/clang.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/clang"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/cc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/cc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/cl.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/cl"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/bcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/xlc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/icx.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/icx"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/clang.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/clang"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/cc.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/cc"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/xlc"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/clang.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/clang"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/cc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/cc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/cl"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/bcc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/xlc"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/icx.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/icx"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/clang.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/clang"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/cc.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/cc.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/cc"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/cl.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/cl.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/cl"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/bcc.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/bcc.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/bcc"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/xlc.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/xlc.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/xlc"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/icx.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/icx.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/icx"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/clang.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/clang.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/clang"
+      - "C:/Program Files/PostgreSQL/17/bin/cc.com"
+      - "C:/Program Files/PostgreSQL/17/bin/cc.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/cc"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc"
+      - "C:/Program Files/PostgreSQL/17/bin/cl.com"
+      - "C:/Program Files/PostgreSQL/17/bin/cl.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/cl"
+      - "C:/Program Files/PostgreSQL/17/bin/bcc.com"
+      - "C:/Program Files/PostgreSQL/17/bin/bcc.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/bcc"
+      - "C:/Program Files/PostgreSQL/17/bin/xlc.com"
+      - "C:/Program Files/PostgreSQL/17/bin/xlc.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/xlc"
+      - "C:/Program Files/PostgreSQL/17/bin/icx.com"
+      - "C:/Program Files/PostgreSQL/17/bin/icx.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/icx"
+      - "C:/Program Files/PostgreSQL/17/bin/clang.com"
+      - "C:/Program Files/PostgreSQL/17/bin/clang.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/clang"
+      - "C:/winlibs/mingw64/bin/cc.com"
+      - "C:/winlibs/mingw64/bin/cc.exe"
+      - "C:/winlibs/mingw64/bin/cc"
+      - "C:/winlibs/mingw64/bin/gcc.com"
+    found: "C:/winlibs/mingw64/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/"
+    found: "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/winlibs/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Hydrangea/build/CMakeFiles/4.1.0/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/ar.com"
+    found: "C:/winlibs/mingw64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/ranlib.com"
+    found: "C:/winlibs/mingw64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/strip.com"
+    found: "C:/winlibs/mingw64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/ld.com"
+    found: "C:/winlibs/mingw64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/nm.com"
+    found: "C:/winlibs/mingw64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/objdump.com"
+    found: "C:/winlibs/mingw64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/objcopy.com"
+    found: "C:/winlibs/mingw64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/readelf.com"
+    found: "C:/winlibs/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/dlltool.com"
+    found: "C:/winlibs/mingw64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/addr2line.com"
+    found: "C:/winlibs/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/tapi.com"
+      - "C:/winlibs/mingw64/bin/tapi.exe"
+      - "C:/winlibs/mingw64/bin/tapi"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/tapi.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/tapi.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/tapi.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/tapi.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/tapi"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/tapi"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/tapi"
+      - "C:/Users/Sasha/.cargo/bin/tapi.com"
+      - "C:/Users/Sasha/.cargo/bin/tapi.exe"
+      - "C:/Users/Sasha/.cargo/bin/tapi"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/tapi"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/tapi"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/tapi.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/tapi.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/tapi"
+      - "C:/Program Files/PostgreSQL/17/bin/tapi.com"
+      - "C:/Program Files/PostgreSQL/17/bin/tapi.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/tapi"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/gcc-ar-15.2.com"
+      - "C:/winlibs/mingw64/bin/gcc-ar-15.2.exe"
+      - "C:/winlibs/mingw64/bin/gcc-ar-15.2"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar-15.2.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar-15.2.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar-15.2"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar-15.2"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
+      - "C:/winlibs/mingw64/bin/gcc-ar-15.com"
+      - "C:/winlibs/mingw64/bin/gcc-ar-15.exe"
+      - "C:/winlibs/mingw64/bin/gcc-ar-15"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar-15.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar-15.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar-15.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar-15.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar-15"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar-15.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar-15.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar-15"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar-15.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar-15.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar-15"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15"
+      - "C:/winlibs/mingw64/bin/gcc-ar15.com"
+      - "C:/winlibs/mingw64/bin/gcc-ar15.exe"
+      - "C:/winlibs/mingw64/bin/gcc-ar15"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar15.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar15.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ar15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/Program Files/Git/cmd/gcc-ar15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar15"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar15.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar15.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ar15"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar15.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar15.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ar15"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar15.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar15.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ar15"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar15.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar15.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar15"
+      - "C:/winlibs/mingw64/bin/gcc-ar.com"
+    found: "C:/winlibs/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/winlibs/mingw64/bin/gcc-ranlib-15.2.com"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib-15.2.exe"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib-15.2"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib-15.2.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib-15.2.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib-15.2"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib-15.com"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib-15.exe"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib-15"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib-15.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib-15.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib-15"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib-15"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib15.com"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib15.exe"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib15"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib15.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib15.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib15"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib15.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/gcc-ranlib15"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib15.com"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/.cargo/bin/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/gcc-ranlib15"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib15.com"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/gcc-ranlib15"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib15.com"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib15.exe"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib15"
+      - "C:/winlibs/mingw64/bin/gcc-ranlib.com"
+    found: "C:/winlibs/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Hydrangea/%JAVA_HOME%/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Sasha/.cargo/bin/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/Sasha/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/winlibs/mingw64/sbin/"
+      - "C:/winlibs/mingw64/"
+      - "C:/Program Files (x86)/Hydrangea/bin/"
+      - "C:/Program Files (x86)/Hydrangea/sbin/"
+      - "C:/Program Files (x86)/Hydrangea/"
+    searched_directories:
+      - "C:/Hydrangea/%JAVA_HOME%/bin/windres.com"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/windres.exe"
+      - "C:/Hydrangea/%JAVA_HOME%/bin/windres"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/windres.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/windres.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/windres"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/windres.com"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/windres.exe"
+      - "C:/Users/Sasha/Downloads/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64/bin/windres"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/windres.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/Scripts/windres"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/windres.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python311/windres"
+      - "C:/Users/Sasha/.cargo/bin/windres.com"
+      - "C:/Users/Sasha/.cargo/bin/windres.exe"
+      - "C:/Users/Sasha/.cargo/bin/windres"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/windres.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/Scripts/windres"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/windres.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Python/Python313/windres"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/windres.com"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/Microsoft/WindowsApps/windres"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/windres.com"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/Programs/Microsoft VS Code/bin/windres"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/windres.com"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/windres.exe"
+      - "C:/Users/Sasha/AppData/Local/GitHubDesktop/bin/windres"
+      - "C:/Program Files/PostgreSQL/17/bin/windres.com"
+      - "C:/Program Files/PostgreSQL/17/bin/windres.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/windres"
+      - "C:/winlibs/mingw64/bin/windres.com"
+    found: "C:/winlibs/mingw64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Hydrangea"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/winlibs/mingw64"
+        - "C:/Program Files (x86)/Hydrangea"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu"
+      binary: "C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu'
+        
+        Run Build Command(s): C:/winlibs/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/winlibs/mingw64/bin/mingw32-make.exe -f Makefile cmTC_08072/fast
+        C:/winlibs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_08072.dir\\build.make CMakeFiles/cmTC_08072.dir/build
+        mingw32-make[1]: Entering directory 'C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu'
+        Building C object CMakeFiles/cmTC_08072.dir/CMakeCCompilerABI.c.obj
+        C:\\winlibs\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj -c C:\\winlibs\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\winlibs\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_08072.dir\\'
+         C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\winlibs\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_08072.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccNtG1jH.s
+        GNU C23 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/winlibs/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "R:/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc/include"
+        ignoring duplicate directory "C:/winlibs/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "C:/winlibs/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
+         C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 4771f173d68fe323f806f2dc68586686
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_08072.dir\\'
+         C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccNtG1jH.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.45
+        COMPILER_PATH=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/winlibs/mingw64/bin/../libexec/gcc/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/winlibs/mingw64/bin/../lib/gcc/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_08072.exe
+        C:\\winlibs\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_08072.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\winlibs\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) 
+        COMPILER_PATH=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/winlibs/mingw64/bin/../libexec/gcc/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/winlibs/mingw64/bin/../lib/gcc/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08072.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_08072.'
+         C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccrO7qJg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_08072.exe C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/winlibs/mingw64/bin/../lib/gcc -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_08072.dir/objects.a --no-whole-archive --out-implib libcmTC_08072.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccrO7qJg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_08072.exe C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/winlibs/mingw64/bin/../lib/gcc -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_08072.dir/objects.a --no-whole-archive --out-implib libcmTC_08072.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08072.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_08072.'
+        C:\\winlibs\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_08072.dir/objects.a
+        C:\\winlibs\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_08072.dir/objects.a @CMakeFiles\\cmTC_08072.dir\\objects1.rsp
+        C:\\winlibs\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_08072.dir/objects.a -Wl,--no-whole-archive -o cmTC_08072.exe -Wl,--out-implib,libcmTC_08072.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+          add: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include] ==> [C:/winlibs/mingw64/include]
+        collapse include dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/winlibs/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/winlibs/mingw64/include;C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/winlibs/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/winlibs/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/winlibs/mingw64/bin/mingw32-make.exe -f Makefile cmTC_08072/fast]
+        ignore line: [C:/winlibs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_08072.dir\\build.make CMakeFiles/cmTC_08072.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Hydrangea/build/CMakeFiles/CMakeScratch/TryCompile-qupdhu']
+        ignore line: [Building C object CMakeFiles/cmTC_08072.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\winlibs\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj -c C:\\winlibs\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\winlibs\\mingw64\\bin\\gcc.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_08072.dir\\']
+        ignore line: [ C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\winlibs\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_08072.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccNtG1jH.s]
+        ignore line: [GNU C23 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r1) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/winlibs/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "C:/winlibs/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/winlibs/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        ignore line: [ C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4771f173d68fe323f806f2dc68586686]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_08072.dir\\']
+        ignore line: [ C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccNtG1jH.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r1) 2.45]
+        ignore line: [COMPILER_PATH=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/winlibs/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_08072.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_08072.exe]
+        ignore line: [C:\\winlibs\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_08072.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\winlibs\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r1) ]
+        ignore line: [COMPILER_PATH=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/winlibs/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08072.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_08072.']
+        link line: [ C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccrO7qJg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_08072.exe C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/winlibs/mingw64/bin/../lib/gcc -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_08072.dir/objects.a --no-whole-archive --out-implib libcmTC_08072.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/winlibs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Sasha\\AppData\\Local\\Temp\\ccrO7qJg.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_08072.exe] ==> ignore
+          arg [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/winlibs/mingw64/bin/../lib/gcc] ==> dir [C:/winlibs/mingw64/bin/../lib/gcc]
+          arg [-LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_08072.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_08072.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'C': Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/winlibs/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/winlibs/mingw64/bin/../lib/gcc] ==> [C:/winlibs/mingw64/lib/gcc]
+        collapse library dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/winlibs/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/winlibs/mingw64/lib]
+        collapse library dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/winlibs/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/winlibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/winlibs/mingw64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/winlibs/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/winlibs/mingw64/lib/gcc;C:/winlibs/mingw64/x86_64-w64-mingw32/lib;C:/winlibs/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/winlibs/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
+      
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:19 (find_package)"
+    name: "SDL2"
+    configs:
+      -
+        filename: "SDL2Config.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/SDL2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/sdl2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/lib/cmake/SDL2/SDL2Config.cmake"
+      mode: "config"
+      version: "2.30.9"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/SDL2-2.30.9/x86_64-w64-mingw32"
+        - "C:/SDL2_image-2.8.2/x86_64-w64-mingw32"
+        - "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32"
+        - "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32"
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Hydrangea"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/winlibs/mingw64"
+        - "C:/Program Files (x86)/Hydrangea"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:20 (find_package)"
+    name: "SDL2_image"
+    configs:
+      -
+        filename: "SDL2_imageConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_image-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_image"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/sdl2_image-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/lib/cmake/SDL2_image/SDL2_imageConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/lib/cmake/SDL2_image/sdl2_image-config.cmake"
+      mode: "config"
+      version: "2.8.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/SDL2-2.30.9/x86_64-w64-mingw32"
+        - "C:/SDL2_image-2.8.2/x86_64-w64-mingw32"
+        - "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32"
+        - "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32"
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Hydrangea"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/winlibs/mingw64"
+        - "C:/Program Files (x86)/Hydrangea"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:21 (find_package)"
+    name: "SDL2_ttf"
+    configs:
+      -
+        filename: "SDL2_ttfConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_ttf-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_ttf"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/lib/cmake/SDL2_ttf/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/lib/cmake/SDL2_ttf/sdl2_ttf-config.cmake"
+      mode: "config"
+      version: "2.22.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/SDL2-2.30.9/x86_64-w64-mingw32"
+        - "C:/SDL2_image-2.8.2/x86_64-w64-mingw32"
+        - "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32"
+        - "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32"
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Hydrangea"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/winlibs/mingw64"
+        - "C:/Program Files (x86)/Hydrangea"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:22 (find_package)"
+    name: "SDL2_mixer"
+    configs:
+      -
+        filename: "SDL2_mixerConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_mixer-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_mixer"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Hydrangea/build/CMakeFiles/pkgRedirects/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2-2.30.9/x86_64-w64-mingw32/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_image-2.8.2/x86_64-w64-mingw32/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32/sdl2_mixer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32/lib/cmake/SDL2_mixer/SDL2_mixerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32/lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake"
+      mode: "config"
+      version: "2.8.1"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/SDL2-2.30.9/x86_64-w64-mingw32"
+        - "C:/SDL2_image-2.8.2/x86_64-w64-mingw32"
+        - "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32"
+        - "C:/SDL2_mixer-2.8.1/x86_64-w64-mingw32"
+      ENV{PATH}:
+        - "%JAVA_HOME%\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Sasha\\Downloads\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\java-21-openjdk-21.0.4.0.7-1.win.jdk.x86_64\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Sasha\\.cargo\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Sasha\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Sasha\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "c:\\Users\\Sasha\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Hydrangea"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/winlibs/mingw64"
+        - "C:/Program Files (x86)/Hydrangea"
+...

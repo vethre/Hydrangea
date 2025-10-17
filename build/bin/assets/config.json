@@ -1,0 +1,8 @@
+{
+	"lang":	"ru",
+	"music":	13,
+	"fullscreen":	true,
+	"resolution":	[1920, 1080],
+	"menu_bg":	"backgrounds/menu_bg.png",
+	"menu_music":	"music/main_menu.mp3"
+}

@@ -1,0 +1,3 @@
+C:\winlibs\mingw64\bin\cmake.exe -E rm -f CMakeFiles\hydrangea.dir/objects.a
+C:\winlibs\mingw64\bin\ar.exe qc CMakeFiles\hydrangea.dir/objects.a @CMakeFiles\hydrangea.dir\objects1.rsp
+C:\winlibs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\hydrangea.dir/objects.a -Wl,--no-whole-archive -o bin\hydrangea.exe -Wl,--out-implib,libhydrangea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hydrangea.dir\linkLibs.rsp

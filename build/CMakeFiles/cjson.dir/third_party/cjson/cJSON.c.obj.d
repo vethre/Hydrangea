@@ -1,0 +1,33 @@
+CMakeFiles/cjson.dir/third_party/cjson/cJSON.c.obj: \
+ C:\Hydrangea\third_party\cjson\cJSON.c \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/errno.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/corecrt_wctype.h \
+ C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/float.h \
+ C:\Hydrangea\third_party\cjson\cJSON.h \
+ C:/winlibs/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/winlibs/mingw64/x86_64-w64-mingw32/include/stddef.h
