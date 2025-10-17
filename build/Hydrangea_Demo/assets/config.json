@@ -1,8 +1,0 @@
-{
-	"lang":	"ua",
-	"music":	9,
-	"fullscreen":	true,
-	"resolution":	[1536, 864],
-	"menu_bg":	"backgrounds/menu_bg.png",
-	"menu_music":	"music/main_menu.mp3"
-}

@@ -1,2 +1,0 @@
-C:\winlibs\mingw64\bin\ar.exe qc libcjson.a CMakeFiles/cjson.dir/third_party/cjson/cJSON.c.obj
-C:\winlibs\mingw64\bin\ranlib.exe libcjson.a
